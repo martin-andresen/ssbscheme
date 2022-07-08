@@ -1,0 +1,8 @@
+v 1.0
+d ssbscheme - Stata scheme for  Statistics Norway
+d
+d {bf:Martin Eckhoff Andresen, Research department, Statistics Norway}
+d Stata scheme using Statistics Norway profile
+d
+d Distribution-Date: 202207082
+f scheme-ssbscheme.scheme
