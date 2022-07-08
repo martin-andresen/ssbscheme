@@ -27,9 +27,10 @@ Once installed, simply specify either ```set scheme ssbscheme``` use the option 
 # Examples
 ``` 
 sysuse auto, clear
-twoway (lpolyci price weight) (scatter price weight), scheme(ssbscheme) title("{stSymbol:Dette er en tittel}")
+twoway (lpolyci price weight) (scatter price weight), scheme(ssbscheme) title("{stSymbol:Din tittel}")
 
-twoway 	(scatter price weight) (lfit price weight) (qfit price weight) (function y=3*x, range(2000 5000)) ///
-	(function y=2000+2*x, range(2000 5000)) (function y=10000+1*x, range(2000 5000)) ///
+twoway 	(scatter price weight) (lfit price weight) (qfit price weight) ///
+	(function y=3*x, range(2000 5000)) (function y=2000+2*x, range(2000 5000)) ///
+	(function y=10000+1*x, range(2000 5000)) ///
 	, scheme(ssbscheme) title("{stSymbol:Dette er en tittel}")
 ```
