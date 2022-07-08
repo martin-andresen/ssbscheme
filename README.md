@@ -22,7 +22,7 @@ foreach type in ps eps svg window {
 Make sure fonts are installed to your system first. To use the title font Roboto Condensed Bold in a title, specify ```title({stSymbol: YOUR TITLE})```, or alternatively ```title({fontface Roboto Condensed Bold: YOUR TITLE})``` directly.
 
 # Use
-Once installed, simply specify either ```set scheme ssbscheme``` use the option ```scheme(ssbscheme)``` in your graph commands. 
+Once installed, simply specify either ```set scheme ssbscheme``` or use the option ```scheme(ssbscheme)``` in your graph commands. 
 
 # Examples
 ``` 
@@ -34,3 +34,5 @@ twoway 	(scatter price weight) (lfit price weight) (qfit price weight) ///
 	(function y=10000+1*x, range(2000 5000)) ///
 	, scheme(ssbscheme) title("{stSymbol:Dette er en tittel}")
 ```
+
+<img src=example.png>
