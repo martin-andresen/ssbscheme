@@ -19,10 +19,14 @@ foreach type in ps eps svg window {
 	}
 ```
 
-Make sure fonts are installed to your system first. To use the title font Roboto Condensed Bold in a title, specify ```title({stSymbol: YOUR TITLE})```, or alternatively ```title({fontface Roboto Condensed Bold: YOUR TITLE})``` directly.
+If you want to change fonts permanently, consider adding the above code snippet to profile.do that runs every time you start Stata.
+
+Make sure fonts are installed to your system.
 
 # Use
 Once installed, simply specify either ```set scheme ssbscheme``` or use the option ```scheme(ssbscheme)``` in your graph commands. 
+
+ To use the title font Roboto Condensed Bold in a title, specify ```title({stSymbol: YOUR TITLE})```, or alternatively ```title({fontface Roboto Condensed Bold: YOUR TITLE})``` directly.
 
 # Examples
 ``` 
