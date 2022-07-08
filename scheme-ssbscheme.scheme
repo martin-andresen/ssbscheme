@@ -1,0 +1,96 @@
+*!  version 0.1  30jul2019
+
+#include s1color
+
+sequence 1410
+label "ssbnew"
+
+color "39 66 71"
+
+color p1  "31 161 56"
+color p2  "0 84 68"
+color p3  "149 199 237"
+color p4  "0 99 175"
+color p5  "216 190 0"
+color p6   "70 37 18"
+color p7  "206 127 172"
+color p8  "167 21 110"
+color p9  "141 142 142"
+color p10  "29 29 27"
+
+color histogram "26 157 73"
+color histogram_line "7 87 69"
+
+color ci_area       "227 241 230%50"
+color ci_arealine   "227 241 230%50"
+
+color ci_line        "227 241 230"
+color ci_arealine    "227 241 230%50"
+color ci_area       "227 241 230%50"
+color ci_symbol      "227 241 230%50"
+color ci2_line        "231 236 236"
+color ci2_arealine    "231 236 236%50"
+color ci2_area        "231 236 236%50"
+color ci2_symbol      "231 236 236%50"
+
+numstyle legend_cols      3
+symbol p  circle_hollow
+
+
+color text           	"39 66 71"
+color body           	"39 66 71"
+color heading        	"39 66 71"
+color subheading     	"39 66 71"
+color axis_title    	"39 66 71"
+color matrix_label  	"39 66 71"
+color label        	 	"39 66 71"
+color key_label      	"39 66 71"
+color tick_label     	"39 66 71"
+color tick_biglabel  	"39 66 71"
+color plotregion_line 	"39 66 71"
+color legend_line    	"39 66 71"
+color matplotregion_line "39 66 71"
+
+
+color symbol         "39 66 71"
+color backsymbol     "231 236 236"
+
+color grid           "231 236 236"
+color major_grid     "231 236 236"
+color minor_grid     "231 236 236"
+
+* White background for all plots
+color background             white
+
+yesno legend_span no
+anglestyle vertical_tick horizontal
+
+color xyline         "39 66 71"
+linepattern xyline          dash
+yesno xyline_extend_low      no
+yesno xyline_extend_high     no
+
+color p1area  "31 161 56%50"
+color p2area  "0 84 68%50"
+color p3area  "149 199 237%50"
+color p4area  "0 99 175%50"
+color p5area  "216 190 0%50"
+color p6area   "70 37 18%50"
+color p7area  "206 127 172%50"
+color p8area  "167 21 110%50"
+color p9area  "141 142 142%50"
+color p10area  "29 29 27%50"
+
+color p1arealine  "31 161 56"
+color p2arealine  "0 84 68"
+color p3arealine  "149 199 237"
+color p4arealine  "0 99 175"
+color p5arealine  "216 190 0"
+color p6arealine   "70 37 18"
+color p7arealine  "206 127 172"
+color p8arealine  "167 21 110"
+color p9arealine  "141 142 142"
+color p10arealine  "29 29 27"
+
+intensity bar 				80
+intensity histogram         80
