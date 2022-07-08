@@ -1,7 +1,7 @@
 # ssbscheme
 Stata scheme using Statistics Norway profile
 
-#Installation
+# Installation
 
 translator set Graph2pdf fontfacesans "Open Sans"
 translator set Graph2pdf fontfacesymbol "Roboto Condensed Bold"
