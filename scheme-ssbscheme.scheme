@@ -81,16 +81,5 @@ color p8area  "167 21 110%50"
 color p9area  "141 142 142%50"
 color p10area  "29 29 27%50"
 
-color p1arealine  "31 161 56"
-color p2arealine  "0 84 68"
-color p3arealine  "149 199 237"
-color p4arealine  "0 99 175"
-color p5arealine  "216 190 0"
-color p6arealine   "70 37 18"
-color p7arealine  "206 127 172"
-color p8arealine  "167 21 110"
-color p9arealine  "141 142 142"
-color p10arealine  "29 29 27"
-
 intensity bar 				80
 intensity histogram         80
